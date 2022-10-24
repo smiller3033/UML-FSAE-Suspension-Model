@@ -1,6 +1,7 @@
 # Car-Suspension-Model
 suspension model for UML FSAE car
 
-- initial test of the model to debug mating issues while importing into MATLAB
-- resolved issues by simplifying mates
-- MATLAB does not handle any kind of mechanical mate in Solidworks and can misinterpret geometric mates with multiple reference planes or points
+# Branch-Description
+- this is the current and most up to date version of the model
+- the wheels freely bounce and the steering system is locked into position
+- the next iteration will be to simulate terrain and collect data for the geometry of the suspension system

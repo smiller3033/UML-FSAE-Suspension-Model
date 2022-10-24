@@ -1,22 +1,292 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<Created by="" on="09/25/22||19:48:18" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.3.0"/>
+<Created by="" on="10/03/22||10:24:48" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.3.0"/>
 <ModelUnits mass="kilogram" length="inch"/>
 <DataUnits mass="kilogram" length="meter"/>
-<RootAssembly name="SimMechanics Assembly" uid="SimMechanics Assembly" version="811">
+<RootAssembly name="SimMechanics Assembly" uid="SimMechanics Assembly" version="1184">
 <AssemblyFile name="SimMechanics Assembly.SLDASM" type="SolidWorks Assembly"/>
 <InstanceTree>
-<Instance name="front upright (for sim)-4" uid="front upright (for sim)-4" entityUid="front upright (for sim)*:*Front Left">
+<Instance name="Suspension_Mount(For Sim)-5" uid="Suspension_Mount(For Sim)-5" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
 <Transform>
-<Rotation>0.12040756910661958 -0.005697126076314769 -0.99270819481673722 0.017470644009573474 0.99984082701209276 -0.0036190105920079368 0.99257080044686252 -0.016907495209074745 0.12048793593563518</Rotation>
-<Translation>0.48140547795033672 0.14184837643791226 0.89149738757175001</Translation>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.25716195378336437 0.21335999999999999 0.92709999999999992</Translation>
 </Transform>
 </Instance>
-<Instance name="wheel assem (for simulation)-4" uid="wheel assem (for simulation)-4" entityUid="wheel assem (for simulation)" rigid="true">
+<Instance name="Suspension_Mount(For Sim)-10" uid="Suspension_Mount(For Sim)-10" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
 <Transform>
-<Rotation>-0.99270819481673944 -0.083296226260496389 0.087133108715635718 -0.0036190105920079667 -0.70192207870793577 -0.71224454942432924 0.12048793593561771 -0.70736633657044412 0.69650234973105718</Rotation>
-<Translation>0.77281716294606861 0.25828758631366056 0.97411245206577191</Translation>
+<Rotation>1.2065001775418696e-14 7.0308342481340015e-15 -1 -7.0308342481340007e-15 1 7.0308342481339163e-15 1 7.0308342481339155e-15 1.2065001775418745e-14</Rotation>
+<Translation>0.25716195378336404 0.20066000000000078 -0.43180000000000007</Translation>
 </Transform>
+</Instance>
+<Instance name="Front Bellcrank mount (for sim)-1" uid="Front Bellcrank mount (for sim)-1" entityUid="Front Bellcrank mount (for sim)*:*Default">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 0.99999999999999967</Rotation>
+<Translation>0.19685000501957836 0.073024999999999979 0.88582499999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-2" uid="Suspension_Mount(For Sim)-2" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>0 -1.0755285551056204e-16 1 0 1 1.0755285551056204e-16 -0.99999999999999989 0 0</Rotation>
+<Translation>-0.25716195378336432 0.21335999999999977 0.72390000000000021</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-3" uid="Suspension_Mount(For Sim)-3" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>8.7263096054668531e-15 0 0.99999999999999989 1.0902737046514248e-14 0.99999999999999989 0 -1 1.0902737046514247e-14 8.7263096054668515e-15</Rotation>
+<Translation>-0.21271194876378449 0.063500000000003262 0.72390000000000088</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-13" uid="Suspension_Mount(For Sim)-13" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.25716195378336576 0.20065999999999831 -0.63500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-4" uid="Suspension_Mount(For Sim)-4" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>8.7263096054668294e-15 -1.0902737046514231e-14 1 1.0902737046514229e-14 1 1.0902737046514135e-14 -1 1.0902737046514133e-14 8.7263096054669477e-15</Rotation>
+<Translation>-0.21271194876378788 0.063499999999996351 0.9524999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-8" uid="Suspension_Mount(For Sim)-8" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>-6.1756155744774323e-16 1.3951513555543468e-14 -1 -1.3951513555543468e-14 1 1.3951513555543477e-14 1 1.3951513555543477e-14 -6.1756155744754858e-16</Rotation>
+<Translation>0.18096195378336524 0.063499999999999293 -0.63500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Bellcrank mount (for sim)-2" uid="Bellcrank mount (for sim)-2" grounded="true" entityUid="Bellcrank mount (for sim)*:*Default">
+<Transform>
+<Rotation>-0.81025633005527042 -0.58607566030792035 2.6367796834847468e-16 -0.58607566030792035 0.81025633005527042 1.7347234759768071e-16 -2.6367796834847468e-16 0 -0.99999999999999989</Rotation>
+<Translation>-0.20498245999630829 0.28953837741934774 -0.61277500000000407</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-15" uid="Suspension_Mount(For Sim)-15" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>0 6.8139938136368983e-15 1 0 1 -6.8139938136368983e-15 -1 0 0</Rotation>
+<Translation>-0.18096195378336388 0.063500000000001236 -0.38099999999999995</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-16" uid="Suspension_Mount(For Sim)-16" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>0 1.1102230246251565e-16 -1 0 1.0000000000000002 2.2204460492503131e-16 1 0 0</Rotation>
+<Translation>0.21271195880294266 0.063499999999999959 0.92709999999999992</Translation>
+</Transform>
+</Instance>
+<Instance name="Front Bellcrank mount (for sim)-2" uid="Front Bellcrank mount (for sim)-2" entityUid="Front Bellcrank mount (for sim)*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>-0.19684999498041456 0.05397500000000903 0.88582500000000097</Translation>
+</Transform>
+</Instance>
+<Instance name="Front Lower Control Arms(For Sim)-1" uid="Front Lower Control Arms(For Sim)-1" entityUid="Front Lower Control Arms(For Sim)*:*Default">
+<Transform>
+<Rotation>0 -0.08609010027578004 -0.99628735545248492 0 -0.99628735545248492 0.08609010027578004 -1 0 0</Rotation>
+<Translation>0.22224999498042169 0.063500000000000001 0.93979999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-1" uid="Suspension_Mount(For Sim)-1" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 0 1 0 1 0 -1 0 -3.4914813388431334e-15</Rotation>
+<Translation>-0.25716195378336093 0.2133599999999998 0.95250000000000135</Translation>
+</Transform>
+</Instance>
+<Instance name="Bellcrank_Basic_FirstDraft-3" uid="Bellcrank_Basic_FirstDraft-3" entityUid="Bellcrank_Basic_FirstDraft*:*Default">
+<Transform>
+<Rotation>-0.34239186639359243 0.93955724137889118 0 0.93955724137889152 0.34239186639359231 0 0 0 -1</Rotation>
+<Translation>0.25400000501957831 0.063499999999999959 0.89852500000000013</Translation>
+</Transform>
+</Instance>
+<Instance name="Spring mount (for sim)-2" uid="Spring mount (for sim)-2" grounded="true" entityUid="Spring mount (for sim)*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.072898835562488343 0.89534999999999942</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-9" uid="Suspension_Mount(For Sim)-9" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>-6.1756155744774323e-16 1.3951513555543468e-14 -1 -1.3951513555543468e-14 1 1.3951513555543477e-14 1 1.3951513555543477e-14 -6.1756155744754858e-16</Rotation>
+<Translation>0.1809619537833651 0.063499999999996101 -0.40639999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-12" uid="Suspension_Mount(For Sim)-12" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.25716195378336576 0.20065999999999831 -0.40639999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-7" uid="Suspension_Mount(For Sim)-7" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>0 0 -1.0000000000000002 0 1.0000000000000002 0 1 0 0</Rotation>
+<Translation>0.21271195880294252 0.063499999999999945 0.6984999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-11" uid="Suspension_Mount(For Sim)-11" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>1.2065001775418696e-14 7.0308342481340015e-15 -1 -7.0308342481340007e-15 1 7.0308342481339163e-15 1 7.0308342481339155e-15 1.2065001775418745e-14</Rotation>
+<Translation>0.25716195378336404 0.20065999999999906 -0.66040000000000021</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-14" uid="Suspension_Mount(For Sim)-14" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.18096195378336477 0.063499999999998877 -0.60960000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="Bellcrank_Basic_FirstDraft-2" uid="Bellcrank_Basic_FirstDraft-2" entityUid="Bellcrank_Basic_FirstDraft*:*Default">
+<Transform>
+<Rotation>0.52249768088851678 -0.85264070596360919 0 0.85264070596360919 0.52249768088851678 0 0 0 1</Rotation>
+<Translation>-0.25363753641259301 0.34055241140927545 -0.62547500000000411</Translation>
+</Transform>
+</Instance>
+<Instance name="Bellcrank_Basic_FirstDraft-4" uid="Bellcrank_Basic_FirstDraft-4" entityUid="Bellcrank_Basic_FirstDraft*:*Default">
+<Transform>
+<Rotation>0.34239167303162898 -0.93955731184350977 -8.6629183306218696e-15 0.93955731184350977 0.34239167303162898 -1.1036774280791129e-14 1.3335793075241676e-14 -4.3604086485664209e-15 0.99999999999999978</Rotation>
+<Translation>-0.25399999498042253 0.063499999999999251 0.89217500000090411</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-6" uid="Suspension_Mount(For Sim)-6" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.25716195378336432 0.21335999999999999 0.6984999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Front Upper Control Arms(For Sim)-2" uid="Front Upper Control Arms(For Sim)-2" entityUid="Front Upper Control Arms(For Sim)*:*Default">
+<Transform>
+<Rotation>-1.0501881110451722e-15 0.042745981398952526 -0.99908597281427203 0 -0.99908597281427203 -0.042745981398952526 -1 0 1.0531941684498813e-15</Rotation>
+<Translation>0.26670000000000016 0.21336000000000008 0.93979999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Rear Lower Control Arms(For Sim)-1" uid="Rear Lower Control Arms(For Sim)-1" entityUid="Rear Lower Control Arms(For Sim)*:*Default">
+<Transform>
+<Rotation>-3.0592302097203215e-14 -0.047465010890696602 -0.99887290119471484 1.2371266499443489e-13 -0.99887290119471484 0.047465010890696602 -1 -1.2212116464530575e-13 3.642984454133649e-14</Rotation>
+<Translation>0.19049999999999731 0.063500000000020318 -0.393699999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="Rear Upper Control Arms(For Sim)-2" uid="Rear Upper Control Arms(For Sim)-2" entityUid="Rear Upper Control Arms(For Sim)*:*Default">
+<Transform>
+<Rotation>5.7042100877093393e-16 0.18597659850628617 0.98255417398127831 0 0.98255417398127831 -0.18597659850628617 -1 0 5.6896843436148281e-16</Rotation>
+<Translation>-0.26669999999987193 0.20066000000017042 -0.41909999999999981</Translation>
+</Transform>
+</Instance>
+<Instance name="Suspension_Mount(For Sim)-18" uid="Suspension_Mount(For Sim)-18" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.18096195378336477 0.063499999999998877 -0.63500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Front Lower Control Arms(For Sim)-2" uid="Front Lower Control Arms(For Sim)-2" entityUid="Front Lower Control Arms(For Sim)*:*Default">
+<Transform>
+<Rotation>0 -0.086090195527313979 0.99628734722170831 7.9210213638622593e-16 0.99628734722170831 0.086090195527313951 -1 7.8727579792269772e-16 0</Rotation>
+<Translation>-0.22224999498041612 0.06350000000001986 0.93979999999999964</Translation>
+</Transform>
+</Instance>
+<Instance name="steering link assem-1" uid="steering link assem-1" grounded="true" entityUid="steering link assem" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 0.99999999999999989 7.0204259072781383e-15 0 7.0204259072781383e-15 -0.99999999999999989</Rotation>
+<Translation>0.070911307550866776 0.26859204274714732 0.76582681948697173</Translation>
+</Transform>
+<Instance name="Steering link 1-1" uid="Steering link 1-1" grounded="true" entityUid="Steering link 1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.070911307550866776 0.14082602638808145 0.21925154718178286</Translation>
+</Transform>
+</Instance>
+<Instance name="steering rack-1" uid="steering rack-1" entityUid="steering rack" rigid="true">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0.25881904510252135 0.96592582628906787 0 -0.96592582628906809 0.25881904510252129</Rotation>
+<Translation>0.070911307550866776 -0.18138058647326077 -0.072766005346370899</Translation>
+</Transform>
+<Instance name="steering rack rod-1" uid="steering rack rod-1" entityUid="steering rack rod*:*Default">
+<Transform>
+<Rotation>1.1323223088937373e-16 1 0 -0.92461204120092988 1.2246455348608187e-16 -0.38091019055185432 -0.38091019055185432 0 0.92461204120092988</Rotation>
+<Translation>0 -0.015874999999999972 0.015875</Translation>
+</Transform>
+</Instance>
+<Instance name="59915K273-1" uid="59915K273-1" entityUid="59915K273*:*59915K273">
+<Transform>
+<Rotation>0 -1 0 0.98109257186406451 0 0.193539054025681 -0.193539054025681 0 0.98109257186406451</Rotation>
+<Translation>-0.16192500000000004 -0.015874999999999972 0.015874999999999972</Translation>
+</Transform>
+</Instance>
+<Instance name="steering rack center-1" uid="steering rack center-1" entityUid="steering rack center*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="59915K273-2" uid="59915K273-2" entityUid="59915K273*:*59915K273">
+<Transform>
+<Rotation>0 1 0 0.9810925718640644 0 -0.193539054025681 -0.193539054025681 0 -0.9810925718640644</Rotation>
+<Translation>0.16192500000000004 -0.015874999999999972 0.015874999999999959</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="steering link 2-1" uid="steering link 2-1" entityUid="steering link 2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.42261826174070333 -0.90630778703664827 0 0.90630778703664827 -0.42261826174070333</Rotation>
+<Translation>0.070911307550866748 -0.089376151519227037 -0.048113491300355804</Translation>
+</Transform>
+</Instance>
+<Instance name="steering Link 3-1" uid="steering Link 3-1" entityUid="steering Link 3*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.25881904510252146 -0.96592582628906809 0 -0.96592582628906809 -0.25881904510252146</Rotation>
+<Translation>0.070911307550866748 -0.077108893525355882 -0.04482648942755374</Translation>
+</Transform>
+</Instance>
+<Instance name="steering rack connector-1" uid="steering rack connector-1" entityUid="steering rack connector*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.070911307550866776 0.14082602638808145 0.10241154718178291</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="front upright (for sim)-5" uid="front upright (for sim)-5" entityUid="front upright (for sim)*:*Front right">
+<Transform>
+<Rotation>0.014526506696815277 -0.0030251430445128041 0.99988990849630421 -0.0019934248178252994 0.99999334837597786 0.0030544166866903468 -0.99989249765196409 -0.0020375753631436721 0.014520379676731971</Rotation>
+<Translation>-0.48166192654357043 0.13163188355218708 0.89488570957326408</Translation>
+</Transform>
+</Instance>
+<Instance name="Rear tie rod (for sim)-2" uid="Rear tie rod (for sim)-2" entityUid="Rear tie rod (for sim)*:*Default">
+<Transform>
+<Rotation>0.97445519864694474 -0.045152771239366472 -0.21999612060067966 0.046252609388196392 0.99892976386840138 -0.00015160014066970505 0.21976751797007282 -0.010027667087870578 0.9755007349756577</Rotation>
+<Translation>-0.30817872931034657 0.057913748595920696 -0.67424286151787161</Translation>
+</Transform>
+</Instance>
+<Instance name="Steering tie rod (for sim)-1" uid="Steering tie rod (for sim)-1" entityUid="Steering tie rod (for sim)*:*Default">
+<Transform>
+<Rotation>0.99299029097524438 -0.11542618429188578 -0.025437728057260564 -0.11727821808758015 -0.98895867282675387 -0.090590082254890694 -0.014700394249866182 0.092938363556507225 -0.99556333750713077</Rotation>
+<Translation>0.30617974275902538 0.083274344721551666 0.81724944482901174</Translation>
+</Transform>
+</Instance>
+<Instance name="Steering tie rod (for sim)-2" uid="Steering tie rod (for sim)-2" entityUid="Steering tie rod (for sim)*:*Default">
+<Transform>
+<Rotation>0.99299028066625039 0.039597475871313584 -0.1113658044777748 0.11727830553313541 -0.2128981225162174 0.97001040637734726 0.01470039297562368 -0.97627169852131357 -0.21604969130427334</Rotation>
+<Translation>-0.30617974142621607 0.083274333416072821 0.81724944499375285</Translation>
+</Transform>
+</Instance>
+<Instance name="Pullrod (for sim)-1" uid="Pullrod (for sim)-1" entityUid="Pullrod (for sim)*:*Default">
+<Transform>
+<Rotation>0.58145947408998255 0 0.8135753683531729 0.8135753683531729 0 -0.58145947408998255 0 1 0</Rotation>
+<Translation>0.36701734915765671 0.12206802157398518 0.89534999999999987</Translation>
+</Transform>
+</Instance>
+<Instance name="Pullrod (for sim)-2" uid="Pullrod (for sim)-2" entityUid="Pullrod (for sim)*:*Default">
+<Transform>
+<Rotation>0.58145955347029077 8.7865129757088707e-15 0.81357531162033803 -0.81357531162033803 1.072968126865402e-14 0.58145955347029077 -3.6204018703154945e-15 -1 1.3387365711618613e-14</Rotation>
+<Translation>-0.36701734050034412 0.12206800594182103 0.8953499999999992</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel assem (for simulation)-1" uid="wheel assem (for simulation)-1" entityUid="wheel assem (for simulation)" rigid="true">
+<Transform>
+<Rotation>0.99988990849630421 0.0096210747094300983 -0.011296274106445563 0.0030544166866904865 0.61153704168492851 0.79120990715861872 0.014520379676732103 -0.79115730519832872 0.61144032988130737</Rotation>
+<Translation>-0.76296729857271384 0.030213885606172428 1.0209245368845115</Translation>
+</Transform>
+<Instance name="hub (for sim)-1" uid="hub (for sim)-1" entityUid="hub (for sim)*:*Default">
+<Transform>
+<Rotation>0 0 1 0.70710678118655079 0.70710678118654402 0 -0.70710678118654391 0.7071067811865509 0</Rotation>
+<Translation>0.21625404389642666 0.16444386140391509 0</Translation>
+</Transform>
+</Instance>
 <Instance name="tire wheel sub assem-1" uid="tire wheel sub assem-1" grounded="true" entityUid="tire wheel sub assem" rigid="true">
 <Transform>
 <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
@@ -24,8 +294,14 @@
 </Transform>
 <Instance name="Hoosier 16x7.5-10 tire-1" uid="Hoosier 16x7.5-10 tire-1" entityUid="Hoosier 16x7.5-10 tire*:*Default">
 <Transform>
-<Rotation>1 0 0 0 0.93060836101792777 0.36601650017933141 0 -0.36601650017933135 0.93060836101792777</Rotation>
-<Translation>0.22542852029992672 0.16444386140391487 0</Translation>
+<Rotation>1 0 -1.1275702593849246e-16 0 0.93060836101792765 0.36601650017933152 1.1275702593849246e-16 -0.36601650017933129 0.93060836101792777</Rotation>
+<Translation>0.22542852029992666 0.16444386140391476 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Assem1^tire wheel sub assem-1" uid="Assem1^tire wheel sub assem-1" entityUid="Assem1^tire wheel sub assem" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
 </Transform>
 </Instance>
 <Instance name="Assem2^tire wheel sub assem-1" uid="Assem2^tire wheel sub assem-1" entityUid="Assem2^tire wheel sub assem" rigid="true">
@@ -47,72 +323,273 @@
 <Shininess>0.3125</Shininess>
 </VisualProperties>
 </Instance>
+</Instance>
+</Instance>
+<Instance name="Rear tie rod (for sim)-1" uid="Rear tie rod (for sim)-1" entityUid="Rear tie rod (for sim)*:*Default">
+<Transform>
+<Rotation>0.97445519864693886 0.037884884366097438 0.22136350504661451 -0.046252609388156771 0.99839315575401233 0.032738397461250922 -0.21976751797010791 -0.042140741333200026 0.97464167567632087</Rotation>
+<Translation>0.30817872931032314 0.057913748595925539 -0.67424286151788271</Translation>
+</Transform>
+</Instance>
+<Instance name="front upright (for sim)-6" uid="front upright (for sim)-6" entityUid="front upright (for sim)*:*Front Left">
+<Transform>
+<Rotation>0.01452649285698831 0.0030251265286365789 -0.99988990874733896 0.0019934231634861845 0.99999334842988707 0.0030544001168757049 0.99989249785632817 -0.0020375734265132119 0.014520365875707916</Rotation>
+<Translation>0.48166192706024064 0.13163190679168768 0.89488571001444195</Translation>
+</Transform>
+</Instance>
+<Instance name="upright (for sim)-3" uid="upright (for sim)-3" entityUid="upright (for sim)*:*Rear left">
+<Transform>
+<Rotation>-0.0031126731028935247 -0.019748470024379978 -0.9998001346258415 -6.1482521841381107e-05 0.99980497994943807 -0.019748374317987354 0.99999515373128389 4.8676590188622899e-14 -0.0031132802549672235</Rotation>
+<Translation>0.46837809256854163 0.14208446142168243 -0.64349761469260625</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel assem (for simulation)-3" uid="wheel assem (for simulation)-3" entityUid="wheel assem (for simulation)" rigid="true">
+<Transform>
+<Rotation>-0.99980013462584139 -0.017464300210884208 -0.0097308283456974017 -0.019748374317987528 0.78692781631580366 0.61672896285178425 -0.0031132802549672348 0.6167978681274644 -0.78711542823112612</Rotation>
+<Translation>0.75094812028171265 0.018203700236153891 -0.74405528509212948</Translation>
+</Transform>
+<Instance name="hub (for sim)-1" uid="hub (for sim)-1" entityUid="hub (for sim)*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999989 0.70710678118655113 0.70710678118654413 0 -0.70710678118654391 0.70710678118655101 0</Rotation>
+<Translation>0.21625404389642666 0.16444386140391504 0</Translation>
+</Transform>
+</Instance>
+<Instance name="tire wheel sub assem-1" uid="tire wheel sub assem-1" grounded="true" entityUid="tire wheel sub assem" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Hoosier 16x7.5-10 tire-1" uid="Hoosier 16x7.5-10 tire-1" entityUid="Hoosier 16x7.5-10 tire*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 -1.1145598333150986e-16 0 0.93060836101792754 0.36601650017933129 1.1362438767648086e-16 -0.36601650017933135 0.93060836101792743</Rotation>
+<Translation>0.22542852029992677 0.16444386140391476 0</Translation>
+</Transform>
+</Instance>
 <Instance name="Assem1^tire wheel sub assem-1" uid="Assem1^tire wheel sub assem-1" entityUid="Assem1^tire wheel sub assem" rigid="true">
 <Transform>
 <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
 <Translation>0 0 0</Translation>
 </Transform>
 </Instance>
-</Instance>
-<Instance name="hub (for sim)-1" uid="hub (for sim)-1" entityUid="hub (for sim)*:*Default">
-<Transform>
-<Rotation>0 0 1 0.70710678118655124 0.70710678118654413 0 -0.70710678118654413 0.70710678118655124 0</Rotation>
-<Translation>0.21625404389642672 0.1644438614039152 0</Translation>
-</Transform>
-</Instance>
-</Instance>
-<Instance name="Front Upper Control Arms(For Sim)-2" uid="Front Upper Control Arms(For Sim)-2" entityUid="Front Upper Control Arms(For Sim)*:*Default">
-<Transform>
-<Rotation>-1.147267318706068e-16 0.10069708403078349 -0.99491713085447353 0 -0.99491713085447353 -0.10069708403078349 -1 0 1.1398463729392501e-16</Rotation>
-<Translation>0.2667000000002086 0.21335999999973912 0.93980000000000008</Translation>
-</Transform>
-</Instance>
-<Instance name="Suspension_Mount(For Sim)-16" uid="Suspension_Mount(For Sim)-16" entityUid="Suspension_Mount(For Sim)*:*Default">
-<Transform>
-<Rotation>0 1.1102230246251565e-16 -1 0 1.0000000000000002 2.2204460492503131e-16 1 0 0</Rotation>
-<Translation>0.21271195880294266 0.063499999999999959 0.92709999999999992</Translation>
-</Transform>
-</Instance>
-<Instance name="Front Bellcrank mount (for sim)-1" uid="Front Bellcrank mount (for sim)-1" entityUid="Front Bellcrank mount (for sim)*:*Default">
-<Transform>
-<Rotation>0 1 0 -1 0 0 0 0 0.99999999999999967</Rotation>
-<Translation>0.19685000501957836 0.073024999999999979 0.88582499999999997</Translation>
-</Transform>
-</Instance>
-<Instance name="Spring mount (for sim)-2" uid="Spring mount (for sim)-2" entityUid="Spring mount (for sim)*:*Default">
+<Instance name="Assem2^tire wheel sub assem-1" uid="Assem2^tire wheel sub assem-1" entityUid="Assem2^tire wheel sub assem" rigid="true">
 <Transform>
 <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
-<Translation>2.3922590832119494e-15 0.072898835562481779 0.89534999999999987</Translation>
+<Translation>0 0 0</Translation>
 </Transform>
 </Instance>
-<Instance name="Bellcrank_Basic_FirstDraft-3" uid="Bellcrank_Basic_FirstDraft-3" entityUid="Bellcrank_Basic_FirstDraft*:*Default">
+<Instance name="Braid wheel ET16-1" uid="Braid wheel ET16-1" grounded="true" entityUid="Braid wheel ET16*:*Front wheels">
 <Transform>
-<Rotation>-0.46390307658373009 0.88588596079639381 -2.2117458320980612e-15 0.88588596079639381 0.46390307658373009 1.6498180660238332e-16 1.1721907623874099e-15 -1.882819013842423e-15 -1</Rotation>
-<Translation>0.25400000501958198 0.063499999999985388 0.89852500000000024</Translation>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Rear Lower Control Arms(For Sim)-2" uid="Rear Lower Control Arms(For Sim)-2" entityUid="Rear Lower Control Arms(For Sim)*:*Default">
+<Transform>
+<Rotation>2.5456998447676539e-16 -0.047465010890596251 0.99887290119471961 6.7636779025522933e-16 0.9988729011947195 0.047465010890596251 -1 6.6460935456344318e-16 2.2522560487857933e-16</Rotation>
+<Translation>-0.19050000000000097 0.06350000000000014 -0.39370000000000011</Translation>
 </Transform>
 </Instance>
-<Instance name="Suspension_Mount(For Sim)-5" uid="Suspension_Mount(For Sim)-5" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Instance name="upright (for sim)-4" uid="upright (for sim)-4" entityUid="upright (for sim)*:*Rear Right">
 <Transform>
-<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
-<Translation>0.25716195378336437 0.21335999999999999 0.92709999999999992</Translation>
+<Rotation>-0.0031126731027441776 0.019748470024114822 0.99980013462584716 6.148252178925684e-05 0.99980497994944328 -0.019748374317722361 -0.99999515373128434 3.3728337909508411e-16 -0.0031132802548168759</Rotation>
+<Translation>-0.46837809256850171 0.1420844614215177 -0.64349761469267142</Translation>
 </Transform>
 </Instance>
-<Instance name="Suspension_Mount(For Sim)-6" uid="Suspension_Mount(For Sim)-6" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Instance name="Suspension_Mount(For Sim)-17" uid="Suspension_Mount(For Sim)-17" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
 <Transform>
-<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
-<Translation>0.25716195378336432 0.21335999999999999 0.6984999999999999</Translation>
+<Rotation>-6.1756155744774323e-16 1.3951513555543468e-14 -1 -1.3951513555543468e-14 1 1.3951513555543477e-14 1 1.3951513555543477e-14 -6.1756155744754858e-16</Rotation>
+<Translation>0.1809619537833653 0.063499999999999626 -0.66039999999999999</Translation>
 </Transform>
 </Instance>
-<Instance name="Suspension_Mount(For Sim)-7" uid="Suspension_Mount(For Sim)-7" grounded="true" entityUid="Suspension_Mount(For Sim)*:*Default">
+<Instance name="Rear Upper Control Arms(For Sim)-1" uid="Rear Upper Control Arms(For Sim)-1" entityUid="Rear Upper Control Arms(For Sim)*:*Default">
 <Transform>
-<Rotation>0 0 -1.0000000000000002 0 1.0000000000000002 0 1 0 0</Rotation>
-<Translation>0.21271195880294252 0.063499999999999945 0.6984999999999999</Translation>
+<Rotation>-1.5163955415269744e-16 0.18597659850570286 -0.98255417398138856 1.3606331336176258e-16 -0.98255417398138856 -0.18597659850570286 -1 -1.6189098494957184e-16 1.2368948467293939e-16</Rotation>
+<Translation>0.26669999999999999 0.20065999999999998 -0.41909999999999997</Translation>
 </Transform>
 </Instance>
-<Instance name="Front Lower Control Arms(For Sim)-1" uid="Front Lower Control Arms(For Sim)-1" entityUid="Front Lower Control Arms(For Sim)*:*Default">
+<Instance name="wheel assem (for simulation)-2" uid="wheel assem (for simulation)-2" entityUid="wheel assem (for simulation)" rigid="true">
 <Transform>
-<Rotation>0 -0.044101324661704522 -0.99902706327860946 0 -0.99902706327860957 0.044101324661704515 -0.99999999999999989 0 0</Rotation>
-<Translation>0.22224999498046952 0.063499999999832649 0.93979999999999986</Translation>
+<Rotation>0.99980013462584716 -0.009065047256956579 0.017818970799882289 -0.019748374317722486 -0.30901065507781544 0.95085352013871538 -0.0031132802548168781 -0.95101537314946094 -0.3091279144940593</Rotation>
+<Translation>-0.74658553194352228 0.19842405433367052 -0.48623802173633013</Translation>
+</Transform>
+<Instance name="hub (for sim)-1" uid="hub (for sim)-1" entityUid="hub (for sim)*:*Default">
+<Transform>
+<Rotation>0 0 1 0.70710678118655101 0.70710678118654391 0 -0.70710678118654402 0.70710678118655101 0</Rotation>
+<Translation>0.21625404389642644 0.16444386140391509 0</Translation>
+</Transform>
+</Instance>
+<Instance name="tire wheel sub assem-1" uid="tire wheel sub assem-1" grounded="true" entityUid="tire wheel sub assem" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Hoosier 16x7.5-10 tire-1" uid="Hoosier 16x7.5-10 tire-1" entityUid="Hoosier 16x7.5-10 tire*:*Default">
+<Transform>
+<Rotation>1 0 -1.1319070680748666e-16 0 0.93060836101792765 0.36601650017933141 1.102633609417758e-16 -0.36601650017933141 0.93060836101792777</Rotation>
+<Translation>0.22542852029992655 0.16444386140391487 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Assem1^tire wheel sub assem-1" uid="Assem1^tire wheel sub assem-1" entityUid="Assem1^tire wheel sub assem" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Assem2^tire wheel sub assem-1" uid="Assem2^tire wheel sub assem-1" entityUid="Assem2^tire wheel sub assem" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Braid wheel ET16-1" uid="Braid wheel ET16-1" grounded="true" entityUid="Braid wheel ET16*:*Front wheels">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="wheel assem (for simulation)-4" uid="wheel assem (for simulation)-4" entityUid="wheel assem (for simulation)" rigid="true">
+<Transform>
+<Rotation>-0.99988990874733885 0.014621756126747801 0.0025248035583604104 0.0030544001168757548 0.036311447747263928 0.99933585415636106 0.014520365875708008 0.99923354778063156 -0.036352110868117959</Rotation>
+<Translation>0.75898071444554904 0.12480623132658736 0.72650575590047639</Translation>
+</Transform>
+<Instance name="hub (for sim)-1" uid="hub (for sim)-1" entityUid="hub (for sim)*:*Default">
+<Transform>
+<Rotation>0 0 1 0.70710678118655101 0.70710678118654402 0 -0.70710678118654391 0.7071067811865509 0</Rotation>
+<Translation>0.21625404389642655 0.1644438614039152 0</Translation>
+</Transform>
+</Instance>
+<Instance name="tire wheel sub assem-1" uid="tire wheel sub assem-1" grounded="true" entityUid="tire wheel sub assem" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Hoosier 16x7.5-10 tire-1" uid="Hoosier 16x7.5-10 tire-1" entityUid="Hoosier 16x7.5-10 tire*:*Default">
+<Transform>
+<Rotation>1 0 -1.1362438767648086e-16 0 0.93060836101792777 0.36601650017933141 1.1254018550399536e-16 -0.36601650017933141 0.93060836101792777</Rotation>
+<Translation>0.22542852029992666 0.16444386140391498 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Assem1^tire wheel sub assem-1" uid="Assem1^tire wheel sub assem-1" entityUid="Assem1^tire wheel sub assem" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Assem2^tire wheel sub assem-1" uid="Assem2^tire wheel sub assem-1" entityUid="Assem2^tire wheel sub assem" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Braid wheel ET16-1" uid="Braid wheel ET16-1" grounded="true" entityUid="Braid wheel ET16*:*Front wheels">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Front Upper Control Arms(For Sim)-1" uid="Front Upper Control Arms(For Sim)-1" entityUid="Front Upper Control Arms(For Sim)*:*Default">
+<Transform>
+<Rotation>1.8317656779315043e-15 0.042745849729637027 0.99908597844774683 9.6569831526519906e-16 0.99908597844774683 -0.042745849729637034 -1 1.043477166979174e-15 1.8447220145729085e-15</Rotation>
+<Translation>-0.26670000000000044 0.21335999999999977 0.93979999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="Steering_wheel-1" uid="Steering_wheel-1" grounded="true" entityUid="Steering_wheel*:*Default">
+<Transform>
+<Rotation>0.99998565374196002 0.0053565203504484888 0 -0.0053565203504484888 0.99998565374196002 -7.0248787397800365e-15 0 7.0247903147051911e-15 1</Rotation>
+<Translation>9.5086420417360082e-05 0.42716934236152138 0.52498527230518999</Translation>
+</Transform>
+</Instance>
+<Instance name="Cylander-1" uid="Cylander-1" entityUid="Cylander*:*Default">
+<Transform>
+<Rotation>0 -0.28778358352764261 0.95769546780382586 0 0.95769546780382586 0.28778358352764261 -1 0 0</Rotation>
+<Translation>0.015606366220554321 0.31932742575540041 -0.62229999999999985</Translation>
+</Transform>
+</Instance>
+<Instance name="Pushrod (for sim)-2" uid="Pushrod (for sim)-2" entityUid="Pushrod (for sim)*:*Default">
+<Transform>
+<Rotation>0.42813444375250786 -0.030062271268713088 0.90321490129364956 0.90062785952175994 -0.068347639326408152 -0.42918301323766328 0.074634822475730001 0.99720853388078945 -0.0021870595197052145</Rotation>
+<Translation>-0.36449680784267613 0.18105609116921023 -0.63296800000000208</Translation>
+</Transform>
+</Instance>
+<Instance name="Piston-3" uid="Piston-3" entityUid="Piston*:*Default">
+<Transform>
+<Rotation>0 -0.057098719493020311 -0.99836853728082675 1.8011689378244745e-16 0.99836853728082675 -0.057098719493020311 0.99999999999999978 -1.8041124150158801e-16 0</Rotation>
+<Translation>0.25930682434229008 0.11258436419244706 0.89534999999999965</Translation>
+</Transform>
+</Instance>
+<Instance name="Pushrod (for sim)-1" uid="Pushrod (for sim)-1" entityUid="Pushrod (for sim)*:*Default">
+<Transform>
+<Rotation>0.4281344437524659 -0.030933908683391475 0.9031854689743043 -0.90062785952177615 0.067933422592021633 0.42924877256453214 -0.074634822475773757 -0.99721018014684415 0.0012246981294714257</Rotation>
+<Translation>0.36449680784267408 0.18105609116922516 -0.63296800000000075</Translation>
+</Transform>
+</Instance>
+<Instance name="Piston-4" uid="Piston-4" entityUid="Piston*:*Default">
+<Transform>
+<Rotation>6.9066768461168683e-16 0.057098710150007524 0.99836853781517243 1.1497451623228799e-14 0.99836853781517243 -0.057098710150007524 -1 1.1518130199617238e-14 0</Rotation>
+<Translation>-0.25930682447597081 0.11258436185491848 0.89535000000000009</Translation>
+</Transform>
+</Instance>
+<Instance name="Piston-1" uid="Piston-1" entityUid="Piston*:*Default">
+<Transform>
+<Rotation>0 -0.28778358352764272 -0.95769546780382586 0 0.95769546780382586 -0.28778358352764272 1 0 0</Rotation>
+<Translation>0.24913082908983919 0.38950057476278083 -0.62229999999999985</Translation>
+</Transform>
+</Instance>
+<Instance name="Cylander-2" uid="Cylander-2" entityUid="Cylander*:*Default">
+<Transform>
+<Rotation>0 -0.28778358352760924 -0.95769546780383585 0 -0.95769546780383585 0.28778358352760924 -1 0 0</Rotation>
+<Translation>-0.015606366220554181 0.31932742575540074 -0.62229999999999985</Translation>
+</Transform>
+</Instance>
+<Instance name="Cylander-4" uid="Cylander-4" entityUid="Cylander*:*Default">
+<Transform>
+<Rotation>0 -0.05709871015000758 -0.99836853781517232 0 -0.99836853781517232 0.05709871015000758 -1 0 0</Rotation>
+<Translation>-0.015864640215119213 0.098661412371940552 0.89535000000000009</Translation>
+</Transform>
+</Instance>
+<Instance name="steering wheel mount-1" uid="steering wheel mount-1" entityUid="steering wheel mount*:*Default&lt;As Machined&gt;">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.40941806913523415 0.62531527230518691</Translation>
+</Transform>
+</Instance>
+<Instance name="Piston-2" uid="Piston-2" entityUid="Piston*:*Default">
+<Transform>
+<Rotation>0 0.2877835835276093 0.95769546780383585 0 0.95769546780383585 -0.2877835835276093 -1 0 0</Rotation>
+<Translation>-0.2491308290898416 0.38950057476277239 -0.62229999999999985</Translation>
+</Transform>
+</Instance>
+<Instance name="Cylander-3" uid="Cylander-3" entityUid="Cylander*:*Default">
+<Transform>
+<Rotation>0 -0.057098719493020388 0.99836853728082664 0 0.99836853728082664 0.057098719493020388 -0.99999999999999989 0 0</Rotation>
+<Translation>0.015864640211733259 0.098661412431269011 0.89534999999999954</Translation>
 </Transform>
 </Instance>
 <Instance name="Hawk 23RR Frame v9-1" uid="Hawk 23RR Frame v9-1" grounded="true" entityUid="Hawk 23RR Frame v9*:*Default&lt;As Machined&gt;">
@@ -121,104 +598,58 @@
 <Translation>0 0 0</Translation>
 </Transform>
 </Instance>
-<Instance name="Pullrod (for sim)-1" uid="Pullrod (for sim)-1" entityUid="Pullrod (for sim)*:*Default">
+<Instance name="Spring mount (for sim)-1" uid="Spring mount (for sim)-1" grounded="true" entityUid="Spring mount (for sim)*:*Default">
 <Transform>
-<Rotation>0.55817796867617919 2.2356612712668797e-15 0.82972125155652987 0.82972125155652987 -2.8508863237012654e-16 -0.55817796867617919 -1.0113527701890705e-15 1 -2.0141058617610455e-15</Rotation>
-<Translation>0.3691262579310835 0.13001754240077457 0.8953500000000002</Translation>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.29209999999999992 -0.62229999999999985</Translation>
 </Transform>
 </Instance>
-<Instance name="Piston-1" uid="Piston-1" entityUid="Piston*:*Default">
+<Instance name="Bellcrank_Basic_FirstDraft-1" uid="Bellcrank_Basic_FirstDraft-1" entityUid="Bellcrank_Basic_FirstDraft*:*Default">
 <Transform>
-<Rotation>0 -0.058575731254509683 -0.99828296775413328 -4.1215528615978107e-16 0.99828296775413328 -0.058575731254509683 1 4.1286418728249887e-16 0</Rotation>
-<Translation>0.25265075035312629 0.11368238590861436 0.89534999999999987</Translation>
+<Rotation>-0.52249768088856896 0.85264070596357722 0 0.85264070596357722 0.52249768088856896 0 0 0 -1.0000000000000002</Rotation>
+<Translation>0.25363753641259351 0.34055241140928405 -0.61912499999999981</Translation>
 </Transform>
 </Instance>
-<Instance name="Cylander-1" uid="Cylander-1" entityUid="Cylander*:*Default">
+<Instance name="Bellcrank mount (for sim)-1" uid="Bellcrank mount (for sim)-1" grounded="true" entityUid="Bellcrank mount (for sim)*:*Default">
 <Transform>
-<Rotation>0 -0.058575731254509683 0.99828296775413328 0 0.99828296775413328 0.058575731254509683 -1 0 0</Rotation>
-<Translation>-0.0031859031548012806 0.098670791455943777 0.89534999999999987</Translation>
+<Rotation>0.81025633005527009 0.58607566030792069 0 -0.58607566030792069 0.81025633005527009 0 0 0 1</Rotation>
+<Translation>0.20498245999630876 0.2895383774193564 -0.63182499999999986</Translation>
 </Transform>
 </Instance>
 </InstanceTree>
 <Constraints>
-<Coincident name="Coincident13">
-<ConstraintGeometry geomType="plane">
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
 <InstancePath>
-<Uid>Hawk 23RR Frame v9-1</Uid>
+<Uid>Bellcrank_Basic_FirstDraft-1</Uid>
 </InstancePath>
-<Position>-0.0022770078171387709 0.076200000000000004 0.90543391399117579</Position>
-<Axis>0 1 0</Axis>
+<Position>0 0 0.0063499999999999668</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
 </ConstraintGeometry>
-<ConstraintGeometry geomType="line">
+<ConstraintGeometry geomType="cylinder">
 <InstancePath>
-<Uid>Spring mount (for sim)-2</Uid>
+<Uid>Bellcrank mount (for sim)-1</Uid>
 </InstancePath>
-<Position>-0.019050000000000001 0.0033011644375173788 0.0082550000000000123</Position>
-<Axis>0.99999999999999989 -4.0977719904963943e-16 0</Axis>
+<Position>0.0095249999999999779 0.069849999999999968 0.019050000000000011</Position>
+<Axis>0 0 -1</Axis>
 </ConstraintGeometry>
-</Coincident>
-<Coincident name="Coincident14">
-<ConstraintGeometry geomType="plane">
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="circle">
 <InstancePath>
-<Uid>Hawk 23RR Frame v9-1</Uid>
+<Uid>Bellcrank mount (for sim)-2</Uid>
 </InstancePath>
-<Position>-0.0022770078171387709 0.076200000000000004 0.90543391399117579</Position>
-<Axis>0 1 0</Axis>
+<Position>0.0095249999999999831 0.069849999999999968 0.019050000000000011</Position>
+<Axis>0 0 0.99999999999999989</Axis>
 </ConstraintGeometry>
-<ConstraintGeometry geomType="line">
+<ConstraintGeometry geomType="circle">
 <InstancePath>
-<Uid>Spring mount (for sim)-2</Uid>
-</InstancePath>
-<Position>0.019050000000000001 0.0033011644375173788 -0.0082550000000000123</Position>
-<Axis>-0.99999999999999989 -4.3254259899684163e-16 0</Axis>
-</ConstraintGeometry>
-</Coincident>
-<Coincident name="Coincident19">
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>Hawk 23RR Frame v9-1</Uid>
-</InstancePath>
-<Position>0 0 0.89534999999999998</Position>
-<Axis>0 0 1</Axis>
-</ConstraintGeometry>
-<ConstraintGeometry geomType="point">
-<InstancePath>
-<Uid>Spring mount (for sim)-2</Uid>
-</InstancePath>
-<Position>-0.019050000000000001 0.038099999999999995 0</Position>
-</ConstraintGeometry>
-</Coincident>
-<Coincident name="Coincident20">
-<ConstraintGeometry geomType="point">
-<InstancePath>
-<Uid>Spring mount (for sim)-2</Uid>
-</InstancePath>
-<Position>0 0.038099999999999995 0.0095250000000000057</Position>
-</ConstraintGeometry>
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>SimMechanics Assembly</Uid>
-</InstancePath>
-<Position>0 0 0</Position>
-<Axis>1 0 0</Axis>
-</ConstraintGeometry>
-</Coincident>
-<Parallel name="Parallel6">
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>Spring mount (for sim)-2</Uid>
-</InstancePath>
-<Position>0.019050000000000001 0.038099999999999995 -0.0095250000000000057</Position>
-<Axis>0 1.3659239968321316e-16 -1</Axis>
-</ConstraintGeometry>
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>SimMechanics Assembly</Uid>
+<Uid>Bellcrank_Basic_FirstDraft-2</Uid>
 </InstancePath>
 <Position>0 0 0</Position>
 <Axis>0 0 1</Axis>
 </ConstraintGeometry>
-</Parallel>
+</Concentric>
 <Concentric name="Concentric11">
 <ConstraintGeometry geomType="cylinder">
 <InstancePath>
@@ -282,102 +713,97 @@
 <Axis>-1 0 0</Axis>
 </ConstraintGeometry>
 </Parallel>
-<Concentric name="Concentric19">
+<Concentric name="Concentric13">
 <ConstraintGeometry geomType="cylinder">
 <InstancePath>
 <Uid>Hawk 23RR Frame v9-1</Uid>
 </InstancePath>
-<Position>0.24130000000000001 0.21335999999999999 0.71119999999999983</Position>
-<Axis>0 0 1</Axis>
+<Position>-0.19684999498042277 0.06349999999999878 0.93979999999999997</Position>
+<Axis>8.7267432863358236e-15 1.0903387567817721e-14 -1</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="cylinder">
 <InstancePath>
-<Uid>Suspension_Mount(For Sim)-5</Uid>
+<Uid>Front Bellcrank mount (for sim)-2</Uid>
 </InstancePath>
-<Position>0.025399999999999978 0 0.015861953783364302</Position>
-<Axis>-1 0 0</Axis>
-</ConstraintGeometry>
-</Concentric>
-<Parallel name="Parallel14">
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>Suspension_Mount(For Sim)-5</Uid>
-</InstancePath>
-<Position>0.025399999999999978 0.012699993299062462 -0.015874999999999972</Position>
-<Axis>0 1 1.0927391974657053e-16</Axis>
-</ConstraintGeometry>
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>Suspension_Mount(For Sim)-6</Uid>
-</InstancePath>
-<Position>0.025399999999999978 0.012699993299062462 -0.015875000000000028</Position>
-<Axis>0 1 1.0927391974657053e-16</Axis>
-</ConstraintGeometry>
-</Parallel>
-<Distance name="Distance3">
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>Suspension_Mount(For Sim)-5</Uid>
-</InstancePath>
-<Position>0 0 0.015861953783364302</Position>
-<Axis>-1 0 0</Axis>
-</ConstraintGeometry>
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>Suspension_Mount(For Sim)-6</Uid>
-</InstancePath>
-<Position>0.025399999999999978 0 0.015861953783364302</Position>
-<Axis>1 0 0</Axis>
-</ConstraintGeometry>
-</Distance>
-<Concentric name="Concentric30">
-<ConstraintGeometry geomType="cylinder">
-<InstancePath>
-<Uid>Hawk 23RR Frame v9-1</Uid>
-</InstancePath>
-<Position>0.19685000501957833 0.063499999999999973 0.93980000000000019</Position>
+<Position>0.0095249999999999918 0 0.019050000000000011</Position>
 <Axis>0 0 -1</Axis>
 </ConstraintGeometry>
-<ConstraintGeometry geomType="cylinder">
-<InstancePath>
-<Uid>Suspension_Mount(For Sim)-16</Uid>
-</InstancePath>
-<Position>0.025399999999999978 0 0.015861953783364302</Position>
-<Axis>-1 0 0</Axis>
-</ConstraintGeometry>
 </Concentric>
-<Parallel name="Parallel24">
+<Coincident name="Coincident24">
 <ConstraintGeometry geomType="plane">
 <InstancePath>
-<Uid>Suspension_Mount(For Sim)-7</Uid>
+<Uid>Hawk 23RR Frame v9-1</Uid>
 </InstancePath>
-<Position>0.025399999999999978 0.012699993299062462 -0.015875</Position>
-<Axis>0 1.0000000000000002 1.0927391974657055e-16</Axis>
+<Position>0 0 0.89534999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Front Bellcrank mount (for sim)-2</Uid>
+</InstancePath>
+<Position>0.019049999999999997 0.021100260412630079 0.0095250000000000057</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="plane">
 <InstancePath>
-<Uid>Suspension_Mount(For Sim)-16</Uid>
+<Uid>Front Bellcrank mount (for sim)-2</Uid>
 </InstancePath>
-<Position>0.025399999999999978 0.012699993299062462 -0.015875</Position>
-<Axis>0 1.0000000000000002 2.2029622220908618e-16</Axis>
+<Position>0.019049999999999997 0 0.019050000000000011</Position>
+<Axis>1 0 0</Axis>
 </ConstraintGeometry>
 </Parallel>
-<Distance name="Distance12">
-<ConstraintGeometry geomType="plane">
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
 <InstancePath>
-<Uid>Suspension_Mount(For Sim)-16</Uid>
+<Uid>Bellcrank_Basic_FirstDraft-4</Uid>
 </InstancePath>
-<Position>0.025399999999999978 0 0.015861953783364302</Position>
-<Axis>1 0 0</Axis>
+<Position>0 0 0.0063499999999999668</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
 </ConstraintGeometry>
-<ConstraintGeometry geomType="plane">
+<ConstraintGeometry geomType="cylinder">
 <InstancePath>
-<Uid>Suspension_Mount(For Sim)-7</Uid>
+<Uid>Front Bellcrank mount (for sim)-2</Uid>
 </InstancePath>
-<Position>0.025399999999999978 0 0.015861953783364302</Position>
-<Axis>1 0 0</Axis>
+<Position>0.0095250000000000196 0.057149999999999979 0.019050000000000011</Position>
+<Axis>0 0 -1</Axis>
 </ConstraintGeometry>
-</Distance>
+</Concentric>
+<Coincident name="Coincident63">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>-0.22224999498042178 0.063500000000000001 0.93979999999999997</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Front Lower Control Arms(For Sim)-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident64">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>-0.22224999498042178 0.063500000000000001 0.71119999999999994</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Front Lower Control Arms(For Sim)-2</Uid>
+</InstancePath>
+<Position>0.22860000000000003 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
 <Coincident name="Coincident65">
 <ConstraintGeometry geomType="point">
 <InstancePath>
@@ -402,6 +828,34 @@
 <ConstraintGeometry geomType="point">
 <InstancePath>
 <Uid>Front Lower Control Arms(For Sim)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident67">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>-0.26669999999999999 0.21335999999999999 0.71119999999999994</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Front Upper Control Arms(For Sim)-1</Uid>
+</InstancePath>
+<Position>0.22860000000000003 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident68">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>-0.26669999999999999 0.21335999999999999 0.93979999999999997</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Front Upper Control Arms(For Sim)-1</Uid>
 </InstancePath>
 <Position>0 0 0</Position>
 </ConstraintGeometry>
@@ -434,18 +888,158 @@
 <Position>0 0 0</Position>
 </ConstraintGeometry>
 </Coincident>
+<Coincident name="Coincident71">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>0.1905 0.06350000000000014 -0.62229999999999996</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Lower Control Arms(For Sim)-1</Uid>
+</InstancePath>
+<Position>0.22859999999999991 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident72">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>0.1905 0.063500000000000001 -0.39369999999999994</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Lower Control Arms(For Sim)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident73">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>-0.1905 0.06350000000000014 -0.62229999999999996</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Lower Control Arms(For Sim)-2</Uid>
+</InstancePath>
+<Position>0.22859999999999997 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident74">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>-0.1905 0.063500000000000001 -0.39369999999999994</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Lower Control Arms(For Sim)-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident75">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>0.26669999999999999 0.20065999999999995 -0.64769999999999994</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Upper Control Arms(For Sim)-1</Uid>
+</InstancePath>
+<Position>0.22859999999999997 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident76">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>0.26669999999999999 0.20065999999999995 -0.41909999999999992</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Upper Control Arms(For Sim)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident77">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>-0.26669999999999999 0.20065999999999995 -0.41909999999999992</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Upper Control Arms(For Sim)-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident78">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Hawk 23RR Frame v9-1</Uid>
+</InstancePath>
+<Position>-0.26669999999999999 0.20065999999999995 -0.64769999999999994</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Upper Control Arms(For Sim)-2</Uid>
+</InstancePath>
+<Position>0.22860000000000008 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident79">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Front Upper Control Arms(For Sim)-1</Uid>
+</InstancePath>
+<Position>0.044450000000000101 0 -0.17094200000000009</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>front upright (for sim)-5</Uid>
+</InstancePath>
+<Position>0 0.088900000000000007 0.04444999999999999</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident80">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Front Lower Control Arms(For Sim)-2</Uid>
+</InstancePath>
+<Position>0.04444999999999999 0 -0.24053799999999992</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>front upright (for sim)-5</Uid>
+</InstancePath>
+<Position>0 -0.088900000000000035 0.019500177224531179</Position>
+</ConstraintGeometry>
+</Coincident>
 <Coincident name="Coincident81">
 <ConstraintGeometry geomType="point">
 <InstancePath>
 <Uid>Front Upper Control Arms(For Sim)-2</Uid>
 </InstancePath>
-<Position>0.04444999999999999 0 -0.17094200000000004</Position>
+<Position>0.04444999999999999 0 -0.17094199999999998</Position>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="point">
 <InstancePath>
-<Uid>front upright (for sim)-4</Uid>
+<Uid>front upright (for sim)-6</Uid>
 </InstancePath>
-<Position>-1.1102230246251565e-16 0.088899999999999951 0.04444999999999999</Position>
+<Position>0 0.088900000000000007 0.044450000000000045</Position>
 </ConstraintGeometry>
 </Coincident>
 <Coincident name="Coincident82">
@@ -453,47 +1047,304 @@
 <InstancePath>
 <Uid>Front Lower Control Arms(For Sim)-1</Uid>
 </InstancePath>
-<Position>0.04444999999999999 0 -0.24053799999999997</Position>
+<Position>0.04444999999999999 0 -0.24053799999999995</Position>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="point">
 <InstancePath>
-<Uid>front upright (for sim)-4</Uid>
+<Uid>front upright (for sim)-6</Uid>
 </InstancePath>
-<Position>1.1102230246251565e-16 -0.088900000000000007 0.019500177224531179</Position>
+<Position>0 -0.088900000000000007 0.019500177224531179</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident83">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Upper Control Arms(For Sim)-1</Uid>
+</InstancePath>
+<Position>0.22453600000000001 0 -0.15824199999999999</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>upright (for sim)-3</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.088900000000000007 0.044450000000000045</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident84">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Lower Control Arms(For Sim)-1</Uid>
+</InstancePath>
+<Position>0.24993599999999994 0 -0.23545800000000003</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>upright (for sim)-3</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 -0.088900000000000007 0.04444999999999999</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident85">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Upper Control Arms(For Sim)-2</Uid>
+</InstancePath>
+<Position>0.22453600000000001 0 -0.15824200000000016</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>upright (for sim)-4</Uid>
+</InstancePath>
+<Position>0 0.088899999999999979 0.044449999999999934</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident86">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear Lower Control Arms(For Sim)-2</Uid>
+</InstancePath>
+<Position>0.24993599999999988 0 -0.23545800000000011</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>upright (for sim)-4</Uid>
+</InstancePath>
+<Position>0 -0.088900000000000007 0.044449999999999934</Position>
 </ConstraintGeometry>
 </Coincident>
 <Concentric name="Concentric31">
 <ConstraintGeometry geomType="cylinder">
 <InstancePath>
-<Uid>front upright (for sim)-4</Uid>
+<Uid>front upright (for sim)-6</Uid>
 </InstancePath>
-<Position>0 0 0.050800000000000067</Position>
-<Axis>0 0 -1</Axis>
+<Position>1.1102230246251565e-16 0 0.050800000000000012</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="cylinder">
 <InstancePath>
 <Uid>wheel assem (for simulation)-4</Uid>
 <Uid>hub (for sim)-1</Uid>
 </InstancePath>
-<Position>0 0 0.11430000000000007</Position>
+<Position>0 1.1102230246251565e-16 0.11430000000000007</Position>
 <Axis>0 0 -1</Axis>
 </ConstraintGeometry>
 </Concentric>
 <Coincident name="Coincident87">
 <ConstraintGeometry geomType="plane">
 <InstancePath>
-<Uid>front upright (for sim)-4</Uid>
+<Uid>front upright (for sim)-6</Uid>
 </InstancePath>
-<Position>-1.1102230246251565e-16 0 0.050800000000000067</Position>
-<Axis>0 0 1</Axis>
+<Position>1.1102230246251565e-16 0 0.050800000000000012</Position>
+<Axis>0 0 1.0000000000000002</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="plane">
 <InstancePath>
 <Uid>wheel assem (for simulation)-4</Uid>
 <Uid>hub (for sim)-1</Uid>
 </InstancePath>
-<Position>0 0 0.11430000000000007</Position>
+<Position>0 1.1102230246251565e-16 0.11430000000000007</Position>
 <Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident88">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>front upright (for sim)-5</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0 0.050799999999999956</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel assem (for simulation)-1</Uid>
+<Uid>hub (for sim)-1</Uid>
+</InstancePath>
+<Position>0 0 0.11429999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident89">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>front upright (for sim)-5</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0 0.050799999999999956</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>wheel assem (for simulation)-1</Uid>
+<Uid>hub (for sim)-1</Uid>
+</InstancePath>
+<Position>0 0 0.11429999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upright (for sim)-3</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0 0.050800000000000012</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wheel assem (for simulation)-3</Uid>
+<Uid>hub (for sim)-1</Uid>
+</InstancePath>
+<Position>0 0 0.11429999999999996</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident90">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upright (for sim)-3</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0 0.050800000000000012</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel assem (for simulation)-3</Uid>
+<Uid>hub (for sim)-1</Uid>
+</InstancePath>
+<Position>0 0 0.11429999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upright (for sim)-4</Uid>
+</InstancePath>
+<Position>0 0 0.050799999999999956</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wheel assem (for simulation)-2</Uid>
+<Uid>hub (for sim)-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.11430000000000007</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident91">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upright (for sim)-4</Uid>
+</InstancePath>
+<Position>0 0 0.050799999999999956</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel assem (for simulation)-2</Uid>
+<Uid>hub (for sim)-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.11430000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident109">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>upright (for sim)-3</Uid>
+</InstancePath>
+<Position>-0.057150000000000034 -0.088899999999999993 0.04444999999999999</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear tie rod (for sim)-1</Uid>
+</InstancePath>
+<Position>0.12077700000000013 0 -1.1102230246251565e-16</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident110">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Suspension_Mount(For Sim)-17</Uid>
+</InstancePath>
+<Position>0.012700000000000045 0 -0.0095250000000000334</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear tie rod (for sim)-1</Uid>
+</InstancePath>
+<Position>-0.12077700000000002 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident111">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Suspension_Mount(For Sim)-18</Uid>
+</InstancePath>
+<Position>0.012700000000000045 0 -0.0095250000000000057</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear tie rod (for sim)-2</Uid>
+</InstancePath>
+<Position>0.12077699999999997 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident112">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>upright (for sim)-4</Uid>
+</InstancePath>
+<Position>0.057150000000000034 -0.088900000000000007 0.04444999999999999</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Rear tie rod (for sim)-2</Uid>
+</InstancePath>
+<Position>-0.12077699999999986 0 1.1102230246251565e-16</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident113">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>steering link assem-1</Uid>
+<Uid>steering rack-1</Uid>
+</InstancePath>
+<Position>-0.17779999999999993 -0.015875000000000083 0.015875000000000014</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Steering tie rod (for sim)-1</Uid>
+</InstancePath>
+<Position>-0.12928599999999996 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident114">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>front upright (for sim)-6</Uid>
+</InstancePath>
+<Position>-0.080339125485271556 -0.063500000000000001 0.045748336766824715</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Steering tie rod (for sim)-1</Uid>
+</InstancePath>
+<Position>0.12928599999999996 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident116">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>front upright (for sim)-5</Uid>
+</InstancePath>
+<Position>0.080339125485271667 -0.063500000000000001 0.045748336766824771</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Steering tie rod (for sim)-2</Uid>
+</InstancePath>
+<Position>-0.12928599999999996 1.1102230246251565e-16 0</Position>
 </ConstraintGeometry>
 </Coincident>
 <Coincident name="Coincident124">
@@ -501,115 +1352,514 @@
 <InstancePath>
 <Uid>Front Upper Control Arms(For Sim)-2</Uid>
 </InstancePath>
-<Position>0.04444999999999999 0 -0.17094200000000004</Position>
+<Position>0.04444999999999999 0 -0.17094199999999998</Position>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="point">
 <InstancePath>
 <Uid>Pullrod (for sim)-1</Uid>
 </InstancePath>
-<Position>0.12119229000000004 0 0</Position>
+<Position>0.12119228999999998 0 0</Position>
 </ConstraintGeometry>
 </Coincident>
-<Concentric name="Concentric34">
-<ConstraintGeometry geomType="circle">
+<Coincident name="Coincident126">
+<ConstraintGeometry geomType="point">
 <InstancePath>
-<Uid>Spring mount (for sim)-2</Uid>
+<Uid>Front Upper Control Arms(For Sim)-1</Uid>
 </InstancePath>
-<Position>-0.0095250000000000005 0.025400000000000006 0.0095250000000000057</Position>
-<Axis>0 0 1</Axis>
+<Position>0.044450000000000101 0 -0.17094200000000009</Position>
 </ConstraintGeometry>
-<ConstraintGeometry geomType="circle">
+<ConstraintGeometry geomType="point">
 <InstancePath>
-<Uid>Cylander-1</Uid>
+<Uid>Pullrod (for sim)-2</Uid>
 </InstancePath>
-<Position>0.0063499999999999668 0 -0.0063500000000000015</Position>
-<Axis>1 0 0</Axis>
+<Position>-0.12119228999999998 0 0</Position>
 </ConstraintGeometry>
-</Concentric>
-<Distance name="Distance14">
-<ConstraintGeometry geomType="plane">
+</Coincident>
+<Coincident name="Coincident132">
+<ConstraintGeometry geomType="point">
 <InstancePath>
-<Uid>Spring mount (for sim)-2</Uid>
+<Uid>Rear Lower Control Arms(For Sim)-1</Uid>
 </InstancePath>
-<Position>0.019050000000000001 0.036830000000000002 0.0082550000000000123</Position>
-<Axis>0 0 -1</Axis>
+<Position>0.24993599999999994 0 -0.23545800000000003</Position>
 </ConstraintGeometry>
-<ConstraintGeometry geomType="plane">
+<ConstraintGeometry geomType="point">
 <InstancePath>
-<Uid>Cylander-1</Uid>
+<Uid>Pushrod (for sim)-1</Uid>
 </InstancePath>
-<Position>-0.0063499999999999668 -0.0063500000000000084 -0.012700000000000006</Position>
-<Axis>-1 0 0</Axis>
+<Position>0.14293595999999997 0 0</Position>
 </ConstraintGeometry>
-</Distance>
-<Concentric name="Concentric35">
-<ConstraintGeometry geomType="circle">
+</Coincident>
+<Coincident name="Coincident137">
+<ConstraintGeometry geomType="point">
 <InstancePath>
-<Uid>Bellcrank_Basic_FirstDraft-3</Uid>
+<Uid>Rear Lower Control Arms(For Sim)-2</Uid>
 </InstancePath>
-<Position>0.042470578521235765 0.02787274582942173 0</Position>
-<Axis>0 0 1</Axis>
+<Position>0.24993599999999988 0 -0.23545800000000011</Position>
 </ConstraintGeometry>
-<ConstraintGeometry geomType="circle">
+<ConstraintGeometry geomType="point">
 <InstancePath>
-<Uid>Piston-1</Uid>
+<Uid>Pushrod (for sim)-2</Uid>
 </InstancePath>
-<Position>0.0063499999999999668 0 -0.0063499999999999668</Position>
-<Axis>1 0 0</Axis>
+<Position>-0.14293595999999997 0 0</Position>
 </ConstraintGeometry>
-</Concentric>
-<Concentric name="Concentric36">
-<ConstraintGeometry geomType="cylinder">
-<InstancePath>
-<Uid>Cylander-1</Uid>
-</InstancePath>
-<Position>0 0 0.17780000000000007</Position>
-<Axis>0 0 -1.0000000000000002</Axis>
-</ConstraintGeometry>
-<ConstraintGeometry geomType="cylinder">
-<InstancePath>
-<Uid>Piston-1</Uid>
-</InstancePath>
-<Position>0 0 0.17780000000000007</Position>
-<Axis>0 0 -1.0000000000000002</Axis>
-</ConstraintGeometry>
-</Concentric>
-<Distance name="Distance15">
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>Bellcrank_Basic_FirstDraft-3</Uid>
-</InstancePath>
-<Position>-0.052179864505442354 0.026270861047816341 0</Position>
-<Axis>0 0 -1</Axis>
-</ConstraintGeometry>
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>Front Bellcrank mount (for sim)-1</Uid>
-</InstancePath>
-<Position>0 0.066040000000000015 0.015874999999999972</Position>
-<Axis>0 1.5440440838374081e-16 -0.99999999999999967</Axis>
-</ConstraintGeometry>
-</Distance>
+</Coincident>
 <Concentric name="Concentric37">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>steering link assem-1</Uid>
+<Uid>Steering link 1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>steering wheel mount-1</Uid>
+</InstancePath>
+<Position>0 0 0.038100000000000023</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident143">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>steering link assem-1</Uid>
+<Uid>Steering link 1-1</Uid>
+</InstancePath>
+<Position>0 0 -0.078739999999999921</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>steering wheel mount-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident144">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>steering wheel mount-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SimMechanics Assembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric38">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Bellcrank_Basic_FirstDraft-4</Uid>
+</InstancePath>
+<Position>-0.052179864505442403 0.026270861047816341 0.0063499999999999668</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pullrod (for sim)-2</Uid>
+</InstancePath>
+<Position>0.12119229000000001 -0.0031750000000000389 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric39">
 <ConstraintGeometry geomType="circle">
 <InstancePath>
 <Uid>Bellcrank_Basic_FirstDraft-3</Uid>
 </InstancePath>
-<Position>-0.052179864505442354 0.026270861047816341 0</Position>
+<Position>-0.052179864505442389 0.026270861047816285 0</Position>
 <Axis>0 0 1</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="circle">
 <InstancePath>
 <Uid>Pullrod (for sim)-1</Uid>
 </InstancePath>
-<Position>-0.12119229000000001 0.0012699999999999934 0</Position>
+<Position>-0.12119229000000001 0.0031750000000000389 0</Position>
 <Axis>0 1 0</Axis>
 </ConstraintGeometry>
 </Concentric>
+<Distance name="Distance18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bellcrank_Basic_FirstDraft-4</Uid>
+</InstancePath>
+<Position>-0.052179864505442403 0.026270861047816341 0</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Front Bellcrank mount (for sim)-2</Uid>
+</InstancePath>
+<Position>0 0.066039999999999988 0.0031750000000000389</Position>
+<Axis>0 3.0880881676748146e-16 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bellcrank_Basic_FirstDraft-3</Uid>
+</InstancePath>
+<Position>-0.052179864505442389 0.026270861047816285 0.0063499999999999668</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Front Bellcrank mount (for sim)-1</Uid>
+</InstancePath>
+<Position>0 0.066040000000000015 0.0031750000000000389</Position>
+<Axis>0 3.0880881676748161e-16 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric43">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Spring mount (for sim)-1</Uid>
+</InstancePath>
+<Position>0.0095250000000000005 0.025399999999999978 -0.0095250000000000057</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cylander-1</Uid>
+</InstancePath>
+<Position>-0.0063499999999999668 0 -0.0063499999999999945</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Spring mount (for sim)-1</Uid>
+</InstancePath>
+<Position>0.019050000000000001 0.036830000000000029 0.0082550000000000123</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cylander-1</Uid>
+</InstancePath>
+<Position>-0.0063499999999999668 -0.0063499999999999668 -0.012700000000000003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric44">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Bellcrank_Basic_FirstDraft-1</Uid>
+</InstancePath>
+<Position>0.042470578521235786 0.02787274582942173 0.0063499999999999668</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Piston-1</Uid>
+</InstancePath>
+<Position>-0.0063499999999999668 0 -0.0063500000000000223</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric45">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Cylander-1</Uid>
+</InstancePath>
+<Position>0 0 0.17780000000000007</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Piston-1</Uid>
+</InstancePath>
+<Position>0 0 0.17780000000000007</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric46">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Spring mount (for sim)-1</Uid>
+</InstancePath>
+<Position>-0.0095250000000000005 0.025399999999999978 -0.0095250000000000057</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cylander-2</Uid>
+</InstancePath>
+<Position>-0.0063499999999999668 0 -0.0063500000000000084</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cylander-2</Uid>
+</InstancePath>
+<Position>0.0063499999999999668 -0.0063500000000000223 -0.012700000000000017</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Spring mount (for sim)-1</Uid>
+</InstancePath>
+<Position>0.019050000000000001 0.036830000000000029 -0.0082550000000000123</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric51">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Bellcrank_Basic_FirstDraft-2</Uid>
+</InstancePath>
+<Position>0.042470578521235758 0.02787274582942173 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Piston-2</Uid>
+</InstancePath>
+<Position>-0.0063499999999999668 0 -0.0063499999999999668</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric52">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Cylander-2</Uid>
+</InstancePath>
+<Position>0 0 0.17780000000000007</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Piston-2</Uid>
+</InstancePath>
+<Position>0 0 0.17780000000000007</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric53">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Spring mount (for sim)-2</Uid>
+</InstancePath>
+<Position>0.0095250000000000005 0.025399999999999992 -0.0095250000000000057</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cylander-3</Uid>
+</InstancePath>
+<Position>-0.0063499999999999668 0 -0.006349999999999998</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cylander-3</Uid>
+</InstancePath>
+<Position>0.0063499999999999668 -0.0063499999999999945 -0.012699999999999999</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Spring mount (for sim)-2</Uid>
+</InstancePath>
+<Position>0.019050000000000001 0.036830000000000002 -0.0082550000000000123</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric54">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Bellcrank_Basic_FirstDraft-3</Uid>
+</InstancePath>
+<Position>0.042470578521235772 0.02787274582942173 0.0063499999999999668</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Piston-3</Uid>
+</InstancePath>
+<Position>-0.0063499999999999668 0 -0.0063499999999999668</Position>
+<Axis>0.99999999999999978 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric55">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Piston-3</Uid>
+</InstancePath>
+<Position>0 0 0.17780000000000004</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Cylander-3</Uid>
+</InstancePath>
+<Position>0 0 0.17779999999999999</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric56">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Spring mount (for sim)-2</Uid>
+</InstancePath>
+<Position>-0.0095250000000000005 0.025399999999999992 -0.0095250000000000057</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Cylander-4</Uid>
+</InstancePath>
+<Position>-0.0063499999999999668 0 -0.0063499999999999963</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Spring mount (for sim)-2</Uid>
+</InstancePath>
+<Position>0.019050000000000001 0.036830000000000002 -0.0082550000000000123</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cylander-4</Uid>
+</InstancePath>
+<Position>0.0063499999999999668 -0.0063500000000000084 -0.012699999999999998</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric57">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Bellcrank_Basic_FirstDraft-4</Uid>
+</InstancePath>
+<Position>0.042470578521235779 0.027872745829421675 -1.1102230246251565e-16</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Piston-4</Uid>
+</InstancePath>
+<Position>-0.0063499999999999668 0 -0.0063499999999999668</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric58">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Cylander-4</Uid>
+</InstancePath>
+<Position>0 0 0.17779999999999993</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Piston-4</Uid>
+</InstancePath>
+<Position>0 0 0.17779999999999996</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bellcrank mount (for sim)-2</Uid>
+</InstancePath>
+<Position>0 0.078740000000000032 0.015874999999999972</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bellcrank_Basic_FirstDraft-2</Uid>
+</InstancePath>
+<Position>-0.052179864505442403 0.026270861047816341 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bellcrank_Basic_FirstDraft-1</Uid>
+</InstancePath>
+<Position>-0.052179864505442375 0.026270861047816396 0.0063499999999999668</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bellcrank mount (for sim)-1</Uid>
+</InstancePath>
+<Position>0 0.078740000000000032 0.0031750000000000389</Position>
+<Axis>0 1.0507107667939472e-16 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident161">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>steering link assem-1</Uid>
+<Uid>steering rack-1</Uid>
+</InstancePath>
+<Position>0.17779999999999993 -0.015874999999999972 0.015875</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Steering tie rod (for sim)-2</Uid>
+</InstancePath>
+<Position>0.12928600000000004 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident165">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Bellcrank_Basic_FirstDraft-1</Uid>
+</InstancePath>
+<Position>-0.052179864505442375 0.026270861047816396 0.0031750000000000389</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Pushrod (for sim)-1</Uid>
+</InstancePath>
+<Position>-0.14293596 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident166">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Bellcrank_Basic_FirstDraft-2</Uid>
+</InstancePath>
+<Position>-0.052179864505442403 0.026270861047816341 0.0031750000000000389</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Pushrod (for sim)-2</Uid>
+</InstancePath>
+<Position>0.14293596 -1.1102230246251565e-16 0</Position>
+</ConstraintGeometry>
+</Coincident>
 </Constraints>
 </RootAssembly>
 <Assemblies>
-<Assembly name="wheel assem (for simulation)" uid="wheel assem (for simulation)" version="127">
+<Assembly name="steering link assem" uid="steering link assem" version="189">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="steering link assem.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="steering rack" uid="steering rack" version="424">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="steering rack.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="wheel assem (for simulation)" uid="wheel assem (for simulation)" version="129">
 <ModelUnits mass="kilogram" length="inch"/>
 <AssemblyFile name="wheel assem (for simulation).SLDASM" type="SolidWorks Assembly"/>
 </Assembly>
@@ -617,23 +1867,57 @@
 <ModelUnits mass="kilogram" length="inch"/>
 <AssemblyFile name="tire wheel sub assem.SLDASM" type="SolidWorks Assembly"/>
 </Assembly>
-<Assembly name="Assem2^tire wheel sub assem" uid="Assem2^tire wheel sub assem" version="102">
+<Assembly name="Assem1^tire wheel sub assem" uid="Assem1^tire wheel sub assem" version="102">
 <ModelUnits mass="kilogram" length="inch"/>
 <AssemblyFile name="tire wheel sub assem.SLDASM" type="SolidWorks Assembly"/>
 </Assembly>
-<Assembly name="Assem1^tire wheel sub assem" uid="Assem1^tire wheel sub assem" version="102">
+<Assembly name="Assem2^tire wheel sub assem" uid="Assem2^tire wheel sub assem" version="102">
 <ModelUnits mass="kilogram" length="inch"/>
 <AssemblyFile name="tire wheel sub assem.SLDASM" type="SolidWorks Assembly"/>
 </Assembly>
 </Assemblies>
 <Parts>
-<Part name="Bellcrank_Basic_FirstDraft" uid="Bellcrank_Basic_FirstDraft*:*Default" version="109">
+<Part name="59915K273" uid="59915K273*:*59915K273" version="163">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="59915K273.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0051808601940994603</Mass>
+<CenterOfMass>3.6941124084146987e-07 -0.0025965066006320013 1.8488755696835071e-07</CenterOfMass>
+<Inertia>2.6464550951846183e-06 1.2085567812269e-07 2.7140878203284314e-06 3.5964257775012496e-11 5.0540572993679646e-12 2.9399789452837426e-11</Inertia>
+</MassProperties>
+<GeometryFile name="59915K273_59915K273_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.95686274509803915" g="0.95686274509803915" b="0.95686274509803915" a="1"/>
+<Diffuse r="0.95686274509803915" g="0.95686274509803915" b="0.95686274509803915" a="1"/>
+<Specular r="0.28705882352941176" g="0.28705882352941176" b="0.28705882352941176" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bellcrank mount (for sim)" uid="Bellcrank mount (for sim)*:*Default" version="147">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Bellcrank mount (for sim).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.010093502790218003</Mass>
+<CenterOfMass>0.010152763613144686 0.034610655035571397 0.0095249999999999987</CenterOfMass>
+<Inertia>5.4496198440769071e-06 8.6344490203321767e-07 5.1998620511201445e-06 0 0 1.8445950744609539e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Bellcrank mount (for sim)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bellcrank_Basic_FirstDraft" uid="Bellcrank_Basic_FirstDraft*:*Default" version="111">
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="Bellcrank_Basic_FirstDraft.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.021652778726330906</Mass>
-<CenterOfMass>-0.0039767545094492778 0.018352266492693049 0.0031749999999999999</CenterOfMass>
-<Inertia>2.9613454698449615e-06 1.5773483390835785e-05 1.8589313165648667e-05 0 0 2.4778999603526396e-08</Inertia>
+<Mass>0.021652778726330903</Mass>
+<CenterOfMass>-0.0039767545094492769 0.018352266492693045 0.0031749999999999999</CenterOfMass>
+<Inertia>2.961345469844962e-06 1.5773483390835789e-05 1.8589313165648671e-05 0 0 2.4778999603526783e-08</Inertia>
 </MassProperties>
 <GeometryFile name="Bellcrank_Basic_FirstDraft_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -648,9 +1932,9 @@
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="Braid wheel ET16.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>4.349412946897913</Mass>
-<CenterOfMass>0.20936260351800398 0.1644438678933535 4.2430256702490417e-09</CenterOfMass>
-<Inertia>0.056537121476414501 0.037671055265719094 0.03767105501831465 5.6661458821541847e-10 -6.8333545830949088e-11 -8.2351466484455268e-11</Inertia>
+<Mass>4.3494129468979166</Mass>
+<CenterOfMass>0.20936260351800401 0.1644438678933535 4.2430256702531461e-09</CenterOfMass>
+<Inertia>0.056537121476414494 0.037671055265719101 0.037671055018314643 5.6661458821988524e-10 -6.8333545822141631e-11 -8.2351466485291832e-11</Inertia>
 </MassProperties>
 <GeometryFile name="Braid wheel ET16_Front wheels_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -665,9 +1949,9 @@
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="Cylander.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.018538544522879188</Mass>
+<Mass>0.018538544522879192</Mass>
 <CenterOfMass>0 0 0.080441999430138175</CenterOfMass>
-<Inertia>5.8376085178563833e-05 5.8371692892489601e-05 4.7435833502071834e-07 0 0 0</Inertia>
+<Inertia>5.8376085178563846e-05 5.8371692892489614e-05 4.7435833502071834e-07 0 0 0</Inertia>
 </MassProperties>
 <GeometryFile name="Cylander_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -682,9 +1966,9 @@
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="Front Bellcrank mount (for sim).SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.0084552565516701032</Mass>
-<CenterOfMass>0.0095250000000000022 0.031042368153328805 0.0095250000000000005</CenterOfMass>
-<Inertia>2.5138756278348327e-06 6.9471359754302486e-07 2.3660087960077156e-06 0 0 0</Inertia>
+<Mass>0.008455256551670105</Mass>
+<CenterOfMass>0.0095250000000000022 0.031042368153328805 0.0095249999999999987</CenterOfMass>
+<Inertia>2.5138756278348331e-06 6.9471359754302486e-07 2.3660087960077161e-06 0 0 0</Inertia>
 </MassProperties>
 <GeometryFile name="Front Bellcrank mount (for sim)_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -695,13 +1979,13 @@
 <Shininess>0.3125</Shininess>
 </VisualProperties>
 </Part>
-<Part name="Front Lower Control Arms(For Sim)" uid="Front Lower Control Arms(For Sim)*:*Default" version="296">
+<Part name="Front Lower Control Arms(For Sim)" uid="Front Lower Control Arms(For Sim)*:*Default" version="297">
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="Front Lower Control Arms(For Sim).SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
 <Mass>0.011219362181758952</Mass>
 <CenterOfMass>0.085779597059248744 -3.5280258052221592e-06 -0.11898366428527819</CenterOfMass>
-<Inertia>5.5435361196972634e-05 0.00011117204609105193 5.5772668451746226e-05 -8.7065891592107724e-11 -1.8710959864226204e-05 -1.1174017424371049e-09</Inertia>
+<Inertia>5.5435361196972634e-05 0.00011117204609105193 5.5772668451746226e-05 -8.7065891592106923e-11 -1.8710959864226204e-05 -1.1174017424371049e-09</Inertia>
 </MassProperties>
 <GeometryFile name="Front Lower Control Arms(For Sim)_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -712,7 +1996,7 @@
 <Shininess>0.3125</Shininess>
 </VisualProperties>
 </Part>
-<Part name="Front Upper Control Arms(For Sim)" uid="Front Upper Control Arms(For Sim)*:*Default" version="242">
+<Part name="Front Upper Control Arms(For Sim)" uid="Front Upper Control Arms(For Sim)*:*Default" version="243">
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="Front Upper Control Arms(For Sim).SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
@@ -729,19 +2013,19 @@
 <Shininess>0.3125</Shininess>
 </VisualProperties>
 </Part>
-<Part name="Hawk 23RR Frame v9" uid="Hawk 23RR Frame v9*:*Default&lt;As Machined&gt;" version="34156">
+<Part name="Hawk 23RR Frame v9" uid="Hawk 23RR Frame v9*:*Default&lt;As Machined&gt;" version="37099">
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="Hawk 23RR Frame v9.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>25.718351683738785</Mass>
-<CenterOfMass>2.3127408363881485e-05 0.30692382503243537 0.31226350132434183</CenterOfMass>
-<Inertia>10.175429686366641 9.3639251349260633 2.9550050607031637 0.80515394593186718 0.00030399965013618198 0.0017356424465588341</Inertia>
+<Mass>25.874439467043594</Mass>
+<CenterOfMass>-3.0633069263628642e-05 0.30531920208291763 0.31090225909032804</CenterOfMass>
+<Inertia>10.158574733500085 9.3428518561415839 2.9712098924261867 0.80776082223772128 0.00093182776764892151 0.00097631512031969708</Inertia>
 </MassProperties>
 <GeometryFile name="Hawk 23RR Frame v9_Default&lt;As Machined&gt;_sldprt.STEP" type="STEP"/>
 <VisualProperties>
-<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
-<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
-<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
 <Emissive r="0" g="0" b="0" a="1"/>
 <Shininess>0.3125</Shininess>
 </VisualProperties>
@@ -751,8 +2035,8 @@
 <PartFile name="Hoosier 16x7.5-10 tire.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
 <Mass>1.9471594623146522</Mass>
-<CenterOfMass>0.0064455283965002162 0 0</CenterOfMass>
-<Inertia>0.073727624796059099 0.046212523909804258 0.04621252390980423 0 0 0</Inertia>
+<CenterOfMass>0.0064455283965002145 0 0</CenterOfMass>
+<Inertia>0.07372762479605903 0.046212523909804237 0.046212523909804196 0 0 0</Inertia>
 </MassProperties>
 <GeometryFile name="Hoosier 16x7.5-10 tire_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -767,9 +2051,9 @@
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="Piston.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.0072769707999373037</Mass>
-<CenterOfMass>0 0 0.067352707252821206</CenterOfMass>
-<Inertia>2.6457503158732365e-05 2.6453110872658137e-05 7.7025379382809594e-08 0 0 0</Inertia>
+<Mass>0.0072769707999373028</Mass>
+<CenterOfMass>0 0 0.067352707252821192</CenterOfMass>
+<Inertia>2.6457503158732375e-05 2.6453110872658147e-05 7.7025379382809581e-08 0 0 0</Inertia>
 </MassProperties>
 <GeometryFile name="Piston_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -780,15 +2064,83 @@
 <Shininess>0.3125</Shininess>
 </VisualProperties>
 </Part>
-<Part name="Pullrod (for sim)" uid="Pullrod (for sim)*:*Default" version="129">
+<Part name="Pullrod (for sim)" uid="Pullrod (for sim)*:*Default" version="145">
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="Pullrod (for sim).SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.0012482056083863516</Mass>
-<CenterOfMass>3.4238573941869603e-06 6.0881053901033013e-08 -1.5733187229086045e-07</CenterOfMass>
-<Inertia>1.1078546751324026e-09 6.3165161661060028e-06 6.3164279723036397e-06 -3.2161968026457895e-13 3.3703559466113483e-12 3.0290370772701787e-12</Inertia>
+<Mass>0.0077394670117132943</Mass>
+<CenterOfMass>-0.00038054906298178238 -6.7587012071852163e-08 -1.4178071121970677e-07</CenterOfMass>
+<Inertia>3.9388796242850895e-08 3.8579548968791958e-05 3.8579379977317952e-05 -6.2772296800722329e-13 -8.8806798138839139e-11 -3.4258517501228493e-11</Inertia>
 </MassProperties>
 <GeometryFile name="Pullrod (for sim)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pushrod (for sim)" uid="Pushrod (for sim)*:*Default" version="140">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Pushrod (for sim).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0091163689992576902</Mass>
+<CenterOfMass>0.00038170150234097526 -1.201017846232038e-08 1.8412180560642976e-07</CenterOfMass>
+<Inertia>4.6327665336833834e-08 6.3027502309986836e-05 6.3027328546840807e-05 -1.3727502150754294e-12 -1.3149221667107097e-10 5.8015022580934049e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Pushrod (for sim)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rear Lower Control Arms(For Sim)" uid="Rear Lower Control Arms(For Sim)*:*Default" version="281">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Rear Lower Control Arms(For Sim).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011870751770146048</Mass>
+<CenterOfMass>0.17096781067570466 -3.6660982083574693e-06 -0.11653729383676172</CenterOfMass>
+<Inertia>5.6148117313224996e-05 0.00013170675183996351 7.5596770669745603e-05 -1.5276148211456794e-10 3.7042860055139136e-05 2.1843333733174161e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Rear Lower Control Arms(For Sim)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rear Upper Control Arms(For Sim)" uid="Rear Upper Control Arms(For Sim)*:*Default" version="281">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Rear Upper Control Arms(For Sim).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0088975905658282891</Mass>
+<CenterOfMass>0.15349453064354165 -3.2202655314547791e-06 -0.078046369062275495</CenterOfMass>
+<Inertia>1.9164778387060538e-05 7.1001893292294417e-05 5.1865838882402486e-05 -4.9773719081984224e-11 1.6739206846972805e-05 1.513937022457354e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Rear Upper Control Arms(For Sim)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rear tie rod (for sim)" uid="Rear tie rod (for sim)*:*Default" version="159">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Rear tie rod (for sim).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0012439973929164465</Mass>
+<CenterOfMass>3.4114853375810713e-06 6.08739318146426e-08 -1.5731600322049614e-07</CenterOfMass>
+<Inertia>1.1044623664113188e-09 6.2528662472801163e-06 6.252778047984443e-06 -3.2049335615334437e-13 3.3465133313372822e-12 3.0074834286446733e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Rear tie rod (for sim)_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
 <Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
 <Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
@@ -801,9 +2153,9 @@
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="Spring mount (for sim).SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.0035499029001809486</Mass>
+<Mass>0.0035499029001809495</Mass>
 <CenterOfMass>0 0.02329123796894339 0</CenterOfMass>
-<Inertia>7.7308629797005443e-07 6.7885583192580854e-07 9.7961504337908869e-07 0 0 0</Inertia>
+<Inertia>7.7308629797005454e-07 6.7885583192580854e-07 9.7961504337908869e-07 0 0 0</Inertia>
 </MassProperties>
 <GeometryFile name="Spring mount (for sim)_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -814,13 +2166,64 @@
 <Shininess>0.3125</Shininess>
 </VisualProperties>
 </Part>
-<Part name="Suspension_Mount(For Sim)" uid="Suspension_Mount(For Sim)*:*Default" version="144">
+<Part name="Steering link 1" uid="Steering link 1*:*Default" version="320">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Steering link 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.074715715262981028</Mass>
+<CenterOfMass>0 0 -0.046874271995176776</CenterOfMass>
+<Inertia>9.7260262782703638e-05 9.7260262782703638e-05 9.2203308228519278e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Steering link 1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Steering tie rod (for sim)" uid="Steering tie rod (for sim)*:*Default" version="241">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Steering tie rod (for sim).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013302207679879365</Mass>
+<CenterOfMass>3.6649995728931422e-06 6.1010861211152888e-08 -1.5762110231161204e-07</CenterOfMass>
+<Inertia>1.1739683860786942e-09 7.6447606869438259e-06 7.6446726002022066e-06 -3.4357094503877987e-13 3.8519272390930753e-12 3.4644618708801666e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Steering tie rod (for sim)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Steering_wheel" uid="Steering_wheel*:*Default" version="268">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Steering_wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.72408804944857952</Mass>
+<CenterOfMass>4.1505258440096135e-06 -0.0009914770123102682 0.020977817539141411</CenterOfMass>
+<Inertia>0.0037479159499470942 0.0040638459698900831 0.0075596443621358993 3.9871741350436773e-05 1.7747658142842939e-08 1.648076616514426e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Steering_wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Suspension_Mount(For Sim)" uid="Suspension_Mount(For Sim)*:*Default" version="152">
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="Suspension_Mount(For Sim).SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
 <Mass>0.0092802347539831503</Mass>
-<CenterOfMass>0.012700000000000001 0 -0.0021429801486802652</CenterOfMass>
-<Inertia>1.0795468034170128e-06 8.2693915250075753e-07 1.1951495306379347e-06 0 0 0</Inertia>
+<CenterOfMass>0.012700000000000001 0 -0.0021429801486802648</CenterOfMass>
+<Inertia>1.0795468034170126e-06 8.2693915250075763e-07 1.1951495306379347e-06 0 0 0</Inertia>
 </MassProperties>
 <GeometryFile name="Suspension_Mount(For Sim)_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -831,15 +2234,32 @@
 <Shininess>0.3125</Shininess>
 </VisualProperties>
 </Part>
-<Part name="front upright (for sim)" uid="front upright (for sim)*:*Front Left" version="177">
+<Part name="front upright (for sim)" uid="front upright (for sim)*:*Front Left" version="175">
 <ModelUnits mass="kilogram" length="inch"/>
 <PartFile name="front upright (for sim).SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.60921307831084348</Mass>
-<CenterOfMass>-0.0017022616572332538 -0.0019492531864711154 0.025767095993043911</CenterOfMass>
-<Inertia>0.002598589995230311 0.0005274716277466349 0.0028642878678993354 1.6939254017874282e-05 1.3629320506404634e-05 -6.3830590432820735e-05</Inertia>
+<Mass>0.60921307831084326</Mass>
+<CenterOfMass>-0.001702261657233249 -0.0019492531864711167 0.025767095993043908</CenterOfMass>
+<Inertia>0.002598589995230311 0.00052747162774663512 0.0028642878678993354 1.6939254017874286e-05 1.3629320506404634e-05 -6.3830590432820735e-05</Inertia>
 </MassProperties>
 <GeometryFile name="front upright (for sim)_Front Left_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="front upright (for sim)" uid="front upright (for sim)*:*Front right" version="183">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="front upright (for sim).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.60921307831084326</Mass>
+<CenterOfMass>0.0017022616572332653 -0.0019492531864711182 0.025767095993043915</CenterOfMass>
+<Inertia>0.0025985899952303106 0.00052747162774663512 0.0028642878678993349 1.6939254017874299e-05 -1.3629320506404714e-05 6.3830590432820573e-05</Inertia>
+</MassProperties>
+<GeometryFile name="front upright (for sim)_Front right_sldprt.STEP" type="STEP"/>
 <VisualProperties>
 <Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
 <Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
@@ -854,9 +2274,145 @@
 <MassProperties>
 <Mass>0.46051792545601644</Mass>
 <CenterOfMass>0 0 0.046280131004366801</CenterOfMass>
-<Inertia>0.00080035612133979325 0.00080035612133979325 0.00041012244828595801 0 0 0</Inertia>
+<Inertia>0.00080035612133979325 0.00080035612133979336 0.00041012244828595801 0 0 0</Inertia>
 </MassProperties>
 <GeometryFile name="hub (for sim)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="steering Link 3" uid="steering Link 3*:*Default" version="151">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="steering Link 3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.057944555274244997</Mass>
+<CenterOfMass>0 0 0.035979731495531728</CenterOfMass>
+<Inertia>2.0733872970159152e-05 2.2445686020666055e-05 1.1946564287433514e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="steering Link 3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="steering link 2" uid="steering link 2*:*Default" version="236">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="steering link 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.038433236999686461</Mass>
+<CenterOfMass>0 0 -0.12699999999999986</CenterOfMass>
+<Inertia>0.00026073173638785997 0.00026048098585016442 1.1109115059494661e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="steering link 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="steering rack center" uid="steering rack center*:*Default" version="888">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="steering rack center.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.42935071405643344</Mass>
+<CenterOfMass>0 -0.013999178451019887 0.018657821241266921</CenterOfMass>
+<Inertia>0.00017554183164195781 0.00038863717961134001 0.00041336749905001978 -1.6865831320151131e-05 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="steering rack center_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="steering rack connector" uid="steering rack connector*:*Default" version="120">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="steering rack connector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013587509681521807</Mass>
+<CenterOfMass>0 0 -0.024801826197244525</CenterOfMass>
+<Inertia>3.1990551749786422e-06 3.3911173690683168e-06 1.3295422313114143e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="steering rack connector_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="steering rack rod" uid="steering rack rod*:*Default" version="164">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="steering rack rod.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.26073528837035892</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.0021114477980231929 1.5743880143318082e-05 0.0021114477980231929 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="steering rack rod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="steering wheel mount" uid="steering wheel mount*:*Default&lt;As Machined&gt;" version="281">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="steering wheel mount.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013450312242876756</Mass>
+<CenterOfMass>-6.1117136180203302e-08 0.039377703322547836 0.036791160962547607</CenterOfMass>
+<Inertia>3.475396730710224e-05 4.5728014910323566e-05 6.6939245389449704e-05 -1.2912818058938975e-05 1.6696155174320134e-11 3.288517028640929e-11</Inertia>
+</MassProperties>
+<GeometryFile name="steering wheel mount_Default&lt;As Machined&gt;_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="upright (for sim)" uid="upright (for sim)*:*Rear Right" version="196">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="upright (for sim).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.59501109007887643</Mass>
+<CenterOfMass>0.00035925114113696897 -0.00067218578046556886 0.025466778472454443</CenterOfMass>
+<Inertia>0.0025574401767352473 0.00047691258365366816 0.0027777109165234978 7.5924912012517097e-06 -4.0578233092535255e-06 1.8859437558847428e-05</Inertia>
+</MassProperties>
+<GeometryFile name="upright (for sim)_Rear Right_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="upright (for sim)" uid="upright (for sim)*:*Rear left" version="203">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="upright (for sim).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.59501109007887643</Mass>
+<CenterOfMass>-0.00035925114113695617 -0.00067218578046557894 0.025466778472454443</CenterOfMass>
+<Inertia>0.0025574401767352469 0.00047691258365366838 0.0027777109165234974 7.5924912012517749e-06 4.0578233092535442e-06 -1.8859437558847821e-05</Inertia>
+</MassProperties>
+<GeometryFile name="upright (for sim)_Rear left_sldprt.STEP" type="STEP"/>
 <VisualProperties>
 <Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
 <Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
