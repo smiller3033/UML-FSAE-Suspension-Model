@@ -38,8 +38,9 @@ wheel_rev = [wheel_outer_dia/2 -wheel_outer_tread/2;...
              wheel_outer_dia/2 wheel_outer_tread/2;...
              wheel_inner_dia/2 wheel_outer_tread/2;...
              wheel_inner_dia/2 -wheel_outer_tread/2;];
-wheel_bias1 = -11.522; %cm 
-wheel_bias2 = 11.522; %cm
+wheel_bias1 = -11.337; %cm 
+wheel_bias1_x = 2.827; %cm
+wheel_bias2 = 11.337; %cm
 hub_r = 5; %cm
 hub_l = 2; %cm
 hubDist = -9; %cm
