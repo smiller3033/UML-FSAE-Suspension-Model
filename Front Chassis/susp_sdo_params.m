@@ -70,12 +70,19 @@ cyl_xsec = [0 -Lc/2; Rco -Lc/2;
             Rci -Lc/2+dr; 0 -Lc/2+dr]; %cm
 Lp = 10; %cm 
 piston_xsec = [0 -Lp/2; Rci -Lp/2; Rci Lp/2; 0 Lp/2]; %cm
-Ks = 100000;%N/m 
+Ks = 105076;%N/m 
 Ds = 10000;%N/(m/s)
 sa_dist = 10; %cm
 
+%% Inertial Parameters
+chassis_density = 4642; %kg/m^3
+control_arm_density = 3500; %kg/m^3 based on a 1" steel tube and a 1/8" wall thickness
+tire_density = 650; %kg/m^3
+hub_density = 2700; %kg/m^3
+shock_density = 2700; %kg/m^3
+
 %% Initial conditions
-eq_pos = 10; %cm Prismatic joint I.C
+eq_pos = 7.5; %cm Prismatic joint I.C
 
 %% Test bed dimensions
 platform_w = 45; %cm
